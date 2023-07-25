@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Metadatos y enlaces a hojas de estilo -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.css">
    <link rel="stylesheet" type="text/css" href="../styles/index.css">
@@ -10,9 +11,12 @@
  <title>Contacto</title>
  <meta name="description=" content="Contactanos por acá!">
 </head>
+
 <body>
   <main>
   <header>
+
+    <!-- Barra de navegación -->
     <nav class="navbar">
       <a href="./img/breakingbar.jpg" class="logo"></a>
       <input type="checkbox" id="toggler">
@@ -29,11 +33,14 @@
       </nav>
   </header>
 
+<!-- Formulario de contacto -->
 <div class="contenido col-md-12">
   <form action="" method="get" enctype="application/x-www-form-urlencoded">
    <fieldset class="google-mapa">
-      <legend class="google-mapa">Llená este formulario y te mandaremos una respuesta en la brevedad.</legend>
+      <legend class="h3">Llená este formulario y te mandaremos una respuesta en la brevedad.</legend>
    <div class="text-center offset-md-3 col-md-6">
+    
+    <!-- Preguntas del formulario -->
       <label for="nombre">Nombre</label> 
    <input type="text" name="nombre" id="nombre">
 
@@ -46,21 +53,20 @@
    <label for="email">Email</label> 
    <input type="email" name="email" id="email">
 
-
-
    <label for="mensaje">Mensaje</label>
-   <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+   <textarea name="mensaje" id="mensaje" cols="30" rows="10" ></textarea>
 
-   <input type="submit" value="Enviar formulario"/>
-   <input type="reset" value="Limpiar formulario"/>
+   <input type="submit" value="Enviar formulario" class="text-center"/>
+   <input type="reset" value="Limpiar formulario" class="text-center"/>
   </div>
   </div>
-
 </fieldset> 
 </form>
+
 <div>
 </main>
   <footer>
+  <!-- Footer con los horarios del Bar, información y la localidad del mismo -->
   <div class="footer-index">
    <div id="footer-izquierda" class="footer-seccion">
      <p id="contacto-email" class="contacto-info">breakingbar@gmail.com</p>

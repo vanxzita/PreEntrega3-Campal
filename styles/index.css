@@ -18,6 +18,7 @@ a:hover {
  color: aquamarine;
  background-color: antiquewhite;
 }
+/* Estilos para los enlaces en hover */
 
 body {
   font-family: "Sofia", sans-serif;
@@ -25,6 +26,7 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
 }
+/* Estilos para el cuerpo */
 
 .google-mapa{
 align-content: center;
@@ -37,6 +39,7 @@ align-content: center;
  padding: 10px;
 justify-content:space-between;
 }
+/* Estilos para el menú de navegación */
 
 .nav-menu ul {
  list-style: none;
@@ -88,7 +91,6 @@ margin-left: 5px;
  padding: 10px;
  border-radius: 5px;
 }
-
 /* Este "hover" hace que cuando pases el cursor por cada solapa en el menú se coloree del verde seleccionado */
 
 .parrafos{
@@ -110,10 +112,6 @@ legend{
 font-size:larger;
 }
 
-.CabeceraUno{
-align-content: center;
-  font-size:larger;
-}
 
 .footer-index{
  background-color: black;
@@ -123,6 +121,7 @@ align-content: center;
   flex-wrap: wrap;
 justify-content: space-between;
 }
+/* Estilos para el pie de página */
 
 .footer-index p{
 text-align: center;
@@ -178,11 +177,13 @@ text-decoration-color: azure;
 display:flex;
 flex-wrap:nowrap;
 }
+/* Estilos para el contenedor de las imágenes en el índice */
 
 .imagenes-index img {
   width:100%;
   height:auto;
 }
+/* Estilos para las imágenes en el índice */
 
 .menu-categoria{
   font-weight:bold;
@@ -227,6 +228,7 @@ margin-left: 10px;
   margin-bottom:10px;
 }
 
+/* Estilos para las etiquetas de Google, los campos de entrada y las áreas de texto*/
   .google-mapa div {
     margin-top: 20px;
   }
@@ -254,11 +256,13 @@ margin-top:10px;
     align-items:center;
     min-height:100px;
   }
+  /* Estilos para el contenido */
 
   .header{
     text-align:center;
     font-size:larger;
   }
+  /* Estilos para el encabezado del contenido */
   
   .imagenes-index img {
     max-width: 100%;
@@ -270,38 +274,24 @@ margin-top:10px;
     justify-content:center;
     align-items:center;
   }
-
-  .container
-  {
-margin-bottom:20px;
-background:rgb(144, 143, 143);
-color:#fff;
-align-content:center;
-  }
-
-  .container div{
-    background:#414542;
-    padding:15px;
-    border: 1px solid rgb(50, 120, 195)
-  }
-
-  .container dt{
-font-size:larger;
-font-family: "Kitten", sans-serif;
-}
+  /* Estilos para centrar elementos */
 
   .navbar {
   display:flex;
   flex-wrap:wrap;
   align-items:center;
   justify-content:space-between;
-  background-color:#633b07;
+  background-color:#696765;
   padding:15px;
   }
+  /* Estilos para la barra de navegación */
+
+  /* Estilos para los elementos en la barra de navegación */
   .navbar a {
   text-decoration:none;
   color:inherit;
   }
+
   .logo{
   margin-right:50px;
 }  

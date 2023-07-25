@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Metadatos y enlaces a hojas de estilo -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-  <link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="../styles/index.css">
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,10 @@
  <meta name="description=" content="Este es el menú que ofrecemos">
 </head>
 <body>
-  <main>
+  
   <header>
     <nav class="navbar">
+      <!-- Barra de navegación -->
       <a href="./img/breakingbar.jpg" class="logo"></a>
       <input type="checkbox" id="toggler">
       <label for="toggler"><i class="r1-menu-line"></i></label>
@@ -26,32 +28,57 @@
       </div>
       </nav>
   </header>
-<h4 class="google-mapa">Nuestro Menú</h4>
+  
+
+<main>
+  <!-- Encabezado principal -->
+<h4 class="h4 text-center">Nuestro Menú</h4>
+  
 <div class="container">
-  <div>
-<dl class="listas-menu" class="row-my-5">
-  <dt>Cervezas artesanales</dt>
-  <dd >De La Casa - (Honey + Stout)</dd>
-  <dd>Blonde - (Hormiga Negra)</dd>
-  <dd>Red Honey - (Beer Michen)</dd>
-</dl>
-  </div>
-</div>
-<div class="container">
-<dl class="listas-menu" class="row-my-5">
-  <dt>Hamburguesas</dt>
-  <dd>Say My Name</dd>
-  <dd>El Camino</dd>
-</dl>
+<!-- Sección de Cervezas Artesanales -->
+  <ul class="list-group text-center">
+  <dt class="list-group-item">Cervezas artesanales
+    <ul>
+      <dd class="list-group-item list-group-item-info">De La Casa - (Honey + Stout)</dd>
+      <dd class="list-group-item list-group-item-warning">Blonde - (Hormiga Negra)</dd>
+      <dd class="list-group-item list-group-item-danger">Red Honey - (Beer Michen)</dd>
+    </ul>
+  </dt>
 </ul>
+<hr>
+<!-- Sección de Hamburguesas -->
+<ul class="list-group text-center">
+  <dt class="list-group-item">Hamburguesas
+<ul>
+  
+  <dd class="list-group-item list-group-item-info">Say My Name</dd>
+  <dd class="list-group-item list-group-item-warning">El Camino</dd>
+  <dd class="list-group-item list-group-item-danger">Baby Blue</dd>
+</ul>
+  </dt>
+</ul>
+<hr>
+<!-- Sección de Papas -->
+<ul class="list-group text-center">
+  <dt class="list-group-item">Papas
+<ul>
+  <dd class="list-group-item list-group-item-info">Breaking Bar</dd>
+  <dd class="list-group-item list-group-item-warning">Holly White</dd>
+  <dd class="list-group-item list-group-item-danger">Skyler</dd>
+</ul>
+</ul>  
+</dt>
+<hr>
+</div>
 </div>
 </div>
 </main>
- <div>
+
+ 
  <footer>
- <div class="footer-index">
-
-
+ <!-- Footer con los horarios del Bar, información y la localidad del mismo -->
+  <div class="container">
+  <div class="footer-index">
   <div id="footer-izquierda" class="footer-seccion">
     <p id="contacto-email" class="contacto-info">breakingbar@gmail.com</p>
     <p id="telefono-de-contacto" class="contacto-info">Teléfono: 1135123224</p>
